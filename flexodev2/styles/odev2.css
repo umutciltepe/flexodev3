@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(209, 118, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 432px;
+    height: 450px;
+}
+.header{
+    width: 1000px;
+    height: 50px;
+    background-color: #232E4D;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.header > a{
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
+#turuncubtn{
+    width: 70px;
+    height: 25px;
+    background-color: chocolate;
+    border-radius: 3px;
+    padding: 3px;
+}
+.main{
+    width: 1000px;
+    height: 450px;
+    background-color: rgb(228, 226, 226);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 25px;
+}
+.main > form{
+    display: flex;
+    align-items: center;
+}
+form > input[type=text]{
+    width: 300px;
+    height: 40px;
+    border: 0px solid white;
+    box-shadow: 0px 2px rgb(167, 165, 165);
+    font-size: 10px;
+    padding: 10px;
+    color: rgb(180, 175, 175);
+}
+form > a{
+    width: 90px;
+    height: 40px;
+    text-decoration: none;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+.footer{
+    width: 1000px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(163, 161, 161);
+}
